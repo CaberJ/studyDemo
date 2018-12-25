@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:application name="service-HelloService-consumer"/>
+    <dubbo:registry address="zookeeper://192.168.31.150:2181"/>
+    <dubbo:annotation package="cn.caber.demo.dubbo.service.impl"/>
+
+    <dubbo:reference interface="cn.caber.demo.dubbo.service.HelloService" id="helloService" check="false"></dubbo:reference>
+<!--
+
+    默认 check="true"
+    关闭某个服务的启动时检查 (没有提供者时报错)：
+    <dubbo:reference interface="com.foo.BarService" check="false" />
+
+    关闭所有服务的启动时检查 (没有提供者时报错)：
+    <dubbo:consumer check="false" />
+
+    关闭注册中心启动时检查 (注册订阅失败时报错)：
+    <dubbo:registry check="false" />
+-->
+
+
+</beans>
