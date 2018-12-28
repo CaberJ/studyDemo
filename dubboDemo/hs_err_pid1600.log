@@ -1,0 +1,167 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Unscaled Compressed Oops mode in which the Java heap is
+#     placed in the first 4GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 4GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=1600, tid=0x000000000000258c
+#
+# JRE version:  (8.0_192-b12) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.192-b12 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000028ee800):  JavaThread "Unknown thread" [_thread_in_vm, id=9612, stack(0x00000000028f0000,0x00000000029f0000)]
+
+Stack: [0x00000000028f0000,0x00000000029f0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000028ee800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=9612, stack(0x00000000028f0000,0x00000000029f0000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+heap address: 0x0000000081400000, size: 2028 MB, Compressed Oops mode: 32-bit
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 3
+Compressed class space size: 1073741824 Address: 0x0000000100000000
+
+Heap:
+ PSYoungGen      total 38400K, used 665K [0x00000000d5c00000, 0x00000000d8680000, 0x0000000100000000)
+  eden space 33280K, 2% used [0x00000000d5c00000,0x00000000d5ca6670,0x00000000d7c80000)
+  from space 5120K, 0% used [0x00000000d8180000,0x00000000d8180000,0x00000000d8680000)
+  to   space 5120K, 0% used [0x00000000d7c80000,0x00000000d7c80000,0x00000000d8180000)
+ ParOldGen       total 87552K, used 0K [0x0000000081400000, 0x0000000086980000, 0x00000000d5c00000)
+  object space 87552K, 0% used [0x0000000081400000,0x0000000081400000,0x0000000086980000)
+ Metaspace       used 775K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 76K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x00000000120b0000,0x00000000124b0000] byte_map_base: 0x0000000011ca6000
+
+Marking Bits: (ParMarkBitMap*) 0x0000000065f83ce0
+ Begin Bits: [0x0000000012b60000, 0x0000000014b10000)
+ End Bits:   [0x0000000014b10000, 0x0000000016ac0000)
+
+Polling page: 0x0000000000840000
+
+CodeCache: size=245760Kb used=328Kb max_used=328Kb free=245431Kb
+ bounds [0x0000000002cf0000, 0x0000000002f60000, 0x0000000011cf0000]
+ total_blobs=58 nmethods=0 adapters=38
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.137 loading class java/lang/Short
+Event: 0.137 loading class java/lang/Short done
+Event: 0.137 loading class java/lang/Integer
+Event: 0.138 loading class java/lang/Integer done
+Event: 0.138 loading class java/lang/Long
+Event: 0.138 loading class java/lang/Long done
+Event: 0.140 loading class java/lang/NullPointerException
+Event: 0.140 loading class java/lang/NullPointerException done
+Event: 0.140 loading class java/lang/ArithmeticException
+Event: 0.140 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x00007ff7f5a00000 - 0x00007ff7f5a37000 	D:\Java\jdk\jdk-8\jdk\bin\java.exe
+0x00007ffff0d40000 - 0x00007ffff0f21000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffff0460000 - 0x00007ffff0512000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007fffedf00000 - 0x00007fffee173000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007fffee950000 - 0x00007fffee9f1000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffff0af0000 - 0x00007ffff0b8e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffff0a50000 - 0x00007ffff0aab000 	C:\WINDOWS\System32\sechost.dll
+0x00007fffee1d0000 - 0x00007fffee2f4000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffff00b0000 - 0x00007ffff0240000 	C:\WINDOWS\System32\USER32.dll
+0x00007fffed4a0000 - 0x00007fffed4c0000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffff0ab0000 - 0x00007ffff0ad8000 	C:\WINDOWS\System32\GDI32.dll
+0x00007fffed110000 - 0x00007fffed2a2000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007fffed5f0000 - 0x00007fffed68f000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007fffed690000 - 0x00007fffed78a000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007fffda6f0000 - 0x00007fffda959000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.376_none_fb439a3730647da2\COMCTL32.dll
+0x00007ffff0720000 - 0x00007ffff0a43000 	C:\WINDOWS\System32\combase.dll
+0x00007fffed4c0000 - 0x00007fffed53a000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffff0c80000 - 0x00007ffff0cad000 	C:\WINDOWS\System32\IMM32.DLL
+0x0000000066c40000 - 0x0000000066d11000 	D:\Java\jdk\jdk-8\jdk\jre\bin\msvcr100.dll
+0x0000000065760000 - 0x0000000066003000 	D:\Java\jdk\jdk-8\jdk\jre\bin\server\jvm.dll
+0x00007ffff0670000 - 0x00007ffff0678000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007fffe8f70000 - 0x00007fffe8f79000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffff0530000 - 0x00007ffff059c000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007fffe7190000 - 0x00007fffe71b3000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007fffddd30000 - 0x00007fffddd3a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007fffe70c0000 - 0x00007fffe70ea000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007fffee180000 - 0x00007fffee1c9000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x00007fffe8250000 - 0x00007fffe825f000 	D:\Java\jdk\jdk-8\jdk\jre\bin\verify.dll
+0x00007fffe8220000 - 0x00007fffe8249000 	D:\Java\jdk\jdk-8\jdk\jre\bin\java.dll
+0x00007fffdc9d0000 - 0x00007fffdc9f3000 	D:\Java\jdk\jdk-8\jdk\jre\bin\instrument.dll
+0x00007fffe5930000 - 0x00007fffe5946000 	D:\Java\jdk\jdk-8\jdk\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -javaagent:D:\Java\IntelliJ IDEA 2017.3.4\lib\idea_rt.jar=55175:D:\Java\IntelliJ IDEA 2017.3.4\bin -Dfile.encoding=UTF-8 
+java_command: cn.caber.demo.dubbo.dubboTest.ConsumerTest
+java_class_path (initial): D:\Java\jdk\jdk-8\jdk\jre\lib\charsets.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\deploy.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\ext\access-bridge-64.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\ext\cldrdata.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\ext\dnsns.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\ext\jaccess.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\ext\jfxrt.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\ext\localedata.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\ext\nashorn.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\ext\sunec.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\ext\sunjce_provider.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\ext\sunmscapi.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\ext\sunpkcs11.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\ext\zipfs.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\javaws.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\jce.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\jfr.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\jfxswt.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\jsse.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\management-agent.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\plugin.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\resources.jar;D:\Java\jdk\jdk-8\jdk\jre\lib\rt.jar;D:\GitHubWorkspace\studyDemo\dubboDemo\consumer\target\classes;D:\Java\maven\maven_repository\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;D:\Java\maven\maven_repository\org\springframework\spring\2.5.6.SEC03\spring-2.5.6.SEC03.jar;D:\Java\maven\maven_repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;D:\Java\maven\maven_repository\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;D:\Java\maven\maven_repository\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;D:\Java\maven\maven_repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\Java\maven\maven_repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\Java\maven\maven_repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\Java\maven\maven_repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;D:\Java\maven\maven_repository\jline\jline\0.9.94\jline-0.9.94.jar;D:\Java\maven\maven_repository\junit\junit\3.8.1\junit-3.8.1.jar;D
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\Java\jdk\jdk-8\jdk
+CLASSPATH=D:\Java\jmeter\apache-jmeter-5.0\apache-jmeter-5.0\lib\ext\ApacheJMeter_core.jar;D:\Java\jmeter\apache-jmeter-5.0\apache-jmeter-5.0\lib\jorphan.jar;D:\Java\jmeter\apache-jmeter-5.0\apache-jmeter-5.0\lib/logkit-2.0.jar;
+PATH=C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Matlab2015b\runtime\win64;D:\Matlab2015b\bin;D:\Matlab2015b\polyspace\bin;D:\Java\jdk\jdk-8\jdk\bin;D:\MySQL\MySQL Server 5.5\bin;D:\Java\maven\apache-maven-3.5.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Java\Subversion\bin;D:\Java\Git\Git\cmd;D:\Java\Git\TortoiseGit\bin;C:\Users\翟翟\AppData\Local\Microsoft\WindowsApps;
+USERNAME=Caber
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 17134 (10.0.17134.1)
+
+CPU:total 4 (initial active 4) (2 cores per cpu, 2 threads per core) family 6 model 60 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2
+
+Memory: 4k page, physical 8302956k(805808k free), swap 10257772k(10512k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.192-b12) for windows-amd64 JRE (1.8.0_192-b12), built on Oct  6 2018 17:12:23 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Tue Dec 25 11:10:38 2018
+timezone: 中国标准时间
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

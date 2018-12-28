@@ -1,0 +1,3 @@
+cn.caber.test1Filter=cn.caber.demo.dubbo.rpc.filter.TestFilter1
+cn.caber.test2Filter=cn.caber.demo.dubbo.rpc.filter.TestFilter2
+cn.caber.test3Filter=cn.caber.demo.dubbo.rpc.filter.TestFilter3
