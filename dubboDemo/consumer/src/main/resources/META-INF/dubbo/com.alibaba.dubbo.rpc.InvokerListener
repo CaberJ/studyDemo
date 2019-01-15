@@ -1,1 +1,0 @@
-zkInvokerListener=com.dap.dubbo.rpc.listener.ZkInvokerListener

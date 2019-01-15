@@ -11,7 +11,7 @@
 </head>
 <body>
 <h2>测试</h2>
-<form action="user/useRequestBody" method="post">
+<form action="192.168.2.118/FlowControl/getRate" method="post">
     用户id：<input type="text" name="id" ><br/>
     用户name：<input type="text" name="name" ><br/>
     用户age：<input type="text" name="age" ><br/>

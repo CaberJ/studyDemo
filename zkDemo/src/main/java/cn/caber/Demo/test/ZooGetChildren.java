@@ -16,12 +16,14 @@ public class ZooGetChildren {
     }
 
     public static void main(String[] args) throws InterruptedException,KeeperException {
-        String path = "/dubbo/com.dap.service.HelloService/";//dubbo、a、dap、zookeeper
+        String path = "/dubbo/com.dap.service.HelloService/providers";//dubbo、a、dap、zookeeper
 
         try {
             conn = new ZooKeeperConnection();
             zk = conn.connect("192.168.31.150");
             Stat stat = znode_exists(path);
+
+            System.out.println("stat:"+stat);
 
             if(stat!= null) {
 

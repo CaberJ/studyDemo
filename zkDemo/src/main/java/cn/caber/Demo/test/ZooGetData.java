@@ -17,7 +17,7 @@ public class ZooGetData {
         ZooKeeperConnection zooKeeperConnection = new ZooKeeperConnection();
         zk = zooKeeperConnection.connect("192.168.31.150");
 
-        String path = "/a";
+        String path = "/dubbo/com.dap.service.HelloService";
         final CountDownLatch connectedSignal = new CountDownLatch(1);
 
         Stat exists = zk.exists(path, true);
@@ -34,7 +34,7 @@ public class ZooGetData {
                         }
 
                     } else {
-                        String path = "/a";
+                        String path = "/dubbo/com.dap.service.HelloService";
 
                         try {
                             byte[] bn = zk.getData(path, false, null);

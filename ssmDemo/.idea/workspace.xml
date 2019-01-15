@@ -2,10 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="396dc232-910a-4006-b7b5-359831bb2b7d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../redisDemo/src/main/java/cn/caber/demo/redisDemo/utils/RedisUtils.java" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../dubboDemo/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__com_alibaba_dubbo_2_5_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__org_springframework_spring_2_5_6_SEC03.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../dubboDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../dubboDemo/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/src/main/java/cn/caber/demo/dubbo/dubboTest/ConsumerTest.java" afterPath="$PROJECT_DIR$/../dubboDemo/consumer/src/main/java/cn/caber/demo/dubbo/dubboTest/ConsumerTest.java" />
-      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/target/classes/cn/caber/demo/dubbo/dubboTest/ConsumerTest.class" afterPath="$PROJECT_DIR$/../dubboDemo/consumer/target/classes/cn/caber/demo/dubbo/dubboTest/ConsumerTest.class" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/consumer.iml" afterPath="$PROJECT_DIR$/../dubboDemo/consumer/consumer.iml" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/pom.xml" afterPath="$PROJECT_DIR$/../dubboDemo/consumer/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/src/main/java/cn/caber/demo/dubbo/consumer/DubboConsumer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/src/main/java/cn/caber/demo/dubbo/dubboTest/ConsumerTest.java" afterPath="$PROJECT_DIR$/../dubboDemo/consumer/src/main/java/com/dap/dubbo/dubboTest/ConsumerTest.java" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/src/main/java/cn/caber/demo/dubbo/service/HelloService.java" afterPath="$PROJECT_DIR$/../dubboDemo/consumer/src/main/java/com/dap/dubbo/service/HelloService.java" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/src/main/resources/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/src/main/resources/META-INF/dubbo/com.alibaba.dubbo.rpc.InvokerListener" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/src/main/resources/dubbo-c.xml" afterPath="$PROJECT_DIR$/../dubboDemo/consumer/src/main/resources/dubbo-c.xml" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/target/classes/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/target/classes/META-INF/dubbo/com.alibaba.dubbo.rpc.InvokerListener" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/target/classes/cn/caber/demo/dubbo/consumer/DubboConsumer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/target/classes/cn/caber/demo/dubbo/dubboTest/ConsumerTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/target/classes/cn/caber/demo/dubbo/rpc/listener/ZkInvokerListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/target/classes/cn/caber/demo/dubbo/service/HelloService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/consumer/target/classes/dubbo-c.xml" afterPath="$PROJECT_DIR$/../dubboDemo/consumer/target/classes/dubbo-c.xml" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/dubboDemo.iml" afterPath="$PROJECT_DIR$/../dubboDemo/dubboDemo.iml" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/hs_err_pid1600.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/pom.xml" afterPath="$PROJECT_DIR$/../dubboDemo/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/pom.xml" afterPath="$PROJECT_DIR$/../dubboDemo/provider/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/provider.iml" afterPath="$PROJECT_DIR$/../dubboDemo/provider/provider.iml" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/src/main/java/cn/caber/demo/dubbo/rpc/listener/ZkInvokerListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/src/main/java/cn/caber/demo/dubbo/service/HelloService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/src/main/java/cn/caber/demo/dubbo/service/impl/HelloServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/src/main/resources/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/src/main/resources/META-INF/dubbo/com.alibaba.dubbo.rpc.InvokerListener" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/src/main/resources/dubbo-p.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/src/test/java/cn/caber/demo/ProviderTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/src/test/resources/dubbo-p.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/src/test/resources/log4j.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/target/classes/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/target/classes/META-INF/dubbo/com.alibaba.dubbo.rpc.InvokerListener" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/target/classes/cn/caber/demo/dubbo/rpc/listener/ZkInvokerListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/target/classes/cn/caber/demo/dubbo/service/HelloService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/target/classes/cn/caber/demo/dubbo/service/impl/HelloServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/target/classes/dubbo-p.xml" afterPath="$PROJECT_DIR$/../dubboDemo/provider/target/classes/dubbo-p.xml" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/target/test-classes/cn/caber/demo/ProviderTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/target/test-classes/dubbo-p.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../dubboDemo/provider/target/test-classes/log4j.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../redisDemo/src/main/java/cn/caber/demo/redisDemo/redisTest.java" afterPath="$PROJECT_DIR$/../redisDemo/src/main/java/cn/caber/demo/redisDemo/redisTest.java" />
+      <change beforePath="$PROJECT_DIR$/../redisDemo/target/classes/cn/caber/demo/redisDemo/redisTest.class" afterPath="$PROJECT_DIR$/../redisDemo/target/classes/cn/caber/demo/redisDemo/redisTest.class" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ssm-controller/src/main/webapp/WEB-INF/pages/test.jsp" afterPath="$PROJECT_DIR$/ssm-controller/src/main/webapp/WEB-INF/pages/test.jsp" />
+      <change beforePath="$PROJECT_DIR$/../zkDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../zkDemo/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../zkDemo/src/main/java/cn/caber/Demo/test/ZooGetChildren.java" afterPath="$PROJECT_DIR$/../zkDemo/src/main/java/cn/caber/Demo/test/ZooGetChildren.java" />
+      <change beforePath="$PROJECT_DIR$/../zkDemo/src/main/java/cn/caber/Demo/test/ZooGetData.java" afterPath="$PROJECT_DIR$/../zkDemo/src/main/java/cn/caber/Demo/test/ZooGetData.java" />
+      <change beforePath="$PROJECT_DIR$/../zkDemo/target/classes/cn/caber/Demo/test/ZooGetChildren.class" afterPath="$PROJECT_DIR$/../zkDemo/target/classes/cn/caber/Demo/test/ZooGetChildren.class" />
+      <change beforePath="$PROJECT_DIR$/../zkDemo/target/classes/cn/caber/Demo/test/ZooGetData$1.class" afterPath="$PROJECT_DIR$/../zkDemo/target/classes/cn/caber/Demo/test/ZooGetData$1.class" />
+      <change beforePath="$PROJECT_DIR$/../zkDemo/target/classes/cn/caber/Demo/test/ZooGetData.class" afterPath="$PROJECT_DIR$/../zkDemo/target/classes/cn/caber/Demo/test/ZooGetData.class" />
+      <change beforePath="$PROJECT_DIR$/../zkDemo/zkDemo.iml" afterPath="$PROJECT_DIR$/../zkDemo/zkDemo.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ssm-pojo/target/" />
@@ -21,13 +83,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssm-controller/src/main/java/cn/caber/ssmDemo/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="646">
               <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="46" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm-controller/src/main/webapp/WEB-INF/pages/test.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-370">
+              <caret line="162" column="21" lean-forward="false" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -68,6 +153,7 @@
         <option value="$PROJECT_DIR$/ssm-service/src/main/java/cn/caber/ssmDemo/service/UserService.java" />
         <option value="$PROJECT_DIR$/ssm-service/src/main/java/cn/caber/ssmDemo/service/serviceImpl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/ssm-controller/src/main/java/cn/caber/ssmDemo/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/ssm-controller/src/main/webapp/WEB-INF/pages/test.jsp" />
       </list>
     </option>
   </component>
@@ -117,8 +203,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,12 +281,38 @@
               <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,6 +436,8 @@
       <workItem from="1545401561071" duration="2204000" />
       <workItem from="1545629952067" duration="1574000" />
       <workItem from="1545894862869" duration="1206000" />
+      <workItem from="1546593004312" duration="63000" />
+      <workItem from="1546608640372" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1545620908233</created>
@@ -335,7 +450,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6433000" />
+    <option name="totallyTimeSpent" value="6524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -350,21 +465,21 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18877551" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2655068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -389,6 +504,62 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ssm-controller/src/main/java/cn/caber/ssmDemo/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-service/src/main/java/cn/caber/ssmDemo/service/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-service/src/main/java/cn/caber/ssmDemo/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-controller/src/main/webapp/WEB-INF/pages/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-controller/src/main/java/cn/caber/ssmDemo/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-service/src/main/java/cn/caber/ssmDemo/service/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-service/src/main/java/cn/caber/ssmDemo/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ssm-controller/src/main/java/cn/caber/ssmDemo/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -469,34 +640,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm-service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3439">
           <caret line="181" column="42" lean-forward="false" selection-start-line="181" selection-start-column="42" selection-end-line="181" selection-end-column="42" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-service/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm-service/ssm-service.iml">
@@ -507,14 +678,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3439">
           <caret line="181" column="42" lean-forward="false" selection-start-line="181" selection-start-column="42" selection-end-line="181" selection-end-column="42" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm-service/src/main/java/cn/caber/ssmDemo/service/UserService.java">
@@ -542,30 +713,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm-service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-114">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm-service/ssm-service.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="181" column="42" lean-forward="false" selection-start-line="181" selection-start-column="42" selection-end-line="181" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,10 +747,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm-controller/src/main/java/cn/caber/ssmDemo/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="646">
           <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="46" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-controller/src/main/webapp/WEB-INF/pages/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-370">
+          <caret line="162" column="21" lean-forward="false" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
       </provider>
     </entry>
   </component>

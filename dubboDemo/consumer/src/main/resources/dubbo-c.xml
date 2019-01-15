@@ -6,23 +6,15 @@
 
         http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-    <dubbo:application name="service-HelloService-consumer"/>
-    <dubbo:registry address="zookeeper://192.168.31.150:2181"/>
-    <dubbo:annotation package="cn.caber.demo.dubbo.service.impl"/>
 
-    <dubbo:reference interface="cn.caber.demo.dubbo.service.HelloService" id="helloService" check="false"></dubbo:reference>
-<!--
 
-    默认 check="true"
-    关闭某个服务的启动时检查 (没有提供者时报错)：
-    <dubbo:reference interface="com.foo.BarService" check="false" />
+    <dubbo:application name="service-customer"></dubbo:application>
 
-    关闭所有服务的启动时检查 (没有提供者时报错)：
-    <dubbo:consumer check="false" />
+    <dubbo:registry address="zookeeper://192.168.31.150:2181" group="aa"/>
 
-    关闭注册中心启动时检查 (注册订阅失败时报错)：
-    <dubbo:registry check="false" />
--->
+    <dubbo:reference id="helloService" interface="com.dap.dubbo.service.HelloService" group="hello"
+                   filter="zk.flowControl.customer.filter,zk.hystrixFilter.customer.filter"></dubbo:reference>
+
 
 
 </beans>
