@@ -72,7 +72,7 @@ public class UserController {
     }
 
     //在其他方法之前先执行
-    @ModelAttribute
+   @ModelAttribute
     public User showModel(String name) {
         User user = userService.findByName(name);
         return user;
@@ -111,7 +111,7 @@ public class UserController {
     public String testRedirect(){
         return "redirect:testForward";
         //它相当于“response.sendRedirect(url)”。
-        // 需要注意的是，如果是重定向到 jsp 页面，则 jsp 页面不 能写在 WEB-INF 目录中，否则无法找到
+        // 需要注意的是，如果是重定向到 jsp 页面，则 jsp 页面不能写在 WEB-INF 目录中，否则无法找到
     }
 
 
@@ -127,11 +127,4 @@ public class UserController {
         System.out.println(aLong);
         return "success";
     }
-
-
-
-
-
-
-
 }

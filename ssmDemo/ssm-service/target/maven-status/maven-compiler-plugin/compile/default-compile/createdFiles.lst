@@ -1,2 +1,4 @@
-cn\caber\ssmDemo\service\UserService.class
+cn\caber\ssmDemo\service\serviceImpl\AdminServiceImpl.class
+cn\caber\ssmDemo\service\AdminService.class
 cn\caber\ssmDemo\service\serviceImpl\UserServiceImpl.class
+cn\caber\ssmDemo\service\UserService.class

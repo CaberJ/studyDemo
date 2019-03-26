@@ -13,6 +13,5 @@ public interface UserDao {
     List<User> findAll();
     void delByIdAndAge(@Param("user_id") String user_id, @Param("user_age") Integer user_age);
     void insertOne(User user);
-
     User findByName(String name);
 }

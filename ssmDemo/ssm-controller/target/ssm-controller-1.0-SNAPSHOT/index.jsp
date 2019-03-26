@@ -41,4 +41,7 @@
 
 <button id="btn">发送ajax的请求</button>
 
+
+<button onclick="location="></button>
+
 </html>
