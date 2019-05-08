@@ -57,6 +57,15 @@ public class UserController {
         //id=user5&name=libai&age=23
     }
 
+    @RequestMapping(value = "/requestBodys",method = RequestMethod.POST)
+    public String requestBody(@RequestBody(required = false) List<User> users) {
+        for (User user : users) {
+            System.out.println(user.toString());
+        }
+        return "success";
+        //id=user5&name=libai&age=23
+    }
+
     @RequestMapping("/useRequestHeader")
     public String useRequestHeader(@RequestHeader(value = "Accept-Language", required = false) String requestHeader) {
         System.out.println(requestHeader);

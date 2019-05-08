@@ -21,7 +21,7 @@
     <input type="submit" value="Submit">
 </form>
 
-<button onclick="location=pages/useradd.jsp">跳转</button>
+
 
 </body>
 </html>

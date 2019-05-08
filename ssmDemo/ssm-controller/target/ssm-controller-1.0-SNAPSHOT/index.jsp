@@ -30,18 +30,26 @@
 </head>
 <body>
 <h2>测试</h2>
-<form action="user/useRequestBody" method="post">
+<form action="" method="post">
     用户id：<input type="text" name="id" ><br/>
     用户name：<input type="text" name="name" ><br/>
     用户age：<input type="text" name="age" ><br/>
     <input type="submit" value=" 保存 "> </form>
 </body>
 
+<form action="/admin/userAdd" method="get">
+    用户名：<input type="text" name="name">
+    用户年龄：<input type="text" name="age">
+    用户性别:<input type="radio" name="sex" value="male">Male
+    <input type="radio" name="sex" value="female">Female
+    <br>
+    <input type="submit" value="Submit">
+</form>
 
 
 <button id="btn">发送ajax的请求</button>
 
 
-<button onclick="location="></button>
+
 
 </html>
