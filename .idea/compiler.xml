@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dubboDemo" />
         <module name="redisDemo" />
+        <module name="springDemo" />
         <module name="ssm-controller" />
         <module name="ssm-dao" />
         <module name="ssm-pojo" />
@@ -18,6 +19,7 @@
     <bytecodeTargetLevel>
       <module name="dubboDemo" target="1.6" />
       <module name="redisDemo" target="1.8" />
+      <module name="springDemo" target="1.5" />
       <module name="ssm-controller" target="1.8" />
       <module name="ssm-dao" target="1.8" />
       <module name="ssm-pojo" target="1.8" />

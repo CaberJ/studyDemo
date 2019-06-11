@@ -8,12 +8,11 @@
 
 
 
-    <dubbo:application name="service-customer"></dubbo:application>
+    <dubbo:application name="service-consumer"></dubbo:application>
 
-    <dubbo:registry address="zookeeper://192.168.31.150:2181" group="aa"/>
+    <dubbo:registry address="zookeeper://192.168.1.141:2181" />
 
-    <dubbo:reference id="helloService" interface="com.dap.dubbo.service.HelloService" group="hello"
-                   filter="zk.flowControl.customer.filter,zk.hystrixFilter.customer.filter"></dubbo:reference>
+    <dubbo:reference id="helloService" interface="com.dap.dubbo.service.HelloService"></dubbo:reference>
 
 
 

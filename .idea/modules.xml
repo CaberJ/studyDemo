@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dubboDemo/dubboDemo.iml" filepath="$PROJECT_DIR$/dubboDemo/dubboDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/redisDemo/redisDemo.iml" filepath="$PROJECT_DIR$/redisDemo/redisDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springDemo/springDemo.iml" filepath="$PROJECT_DIR$/springDemo/springDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssmDemo/ssm-controller/ssm-controller.iml" filepath="$PROJECT_DIR$/ssmDemo/ssm-controller/ssm-controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssmDemo/ssm-dao/ssm-dao.iml" filepath="$PROJECT_DIR$/ssmDemo/ssm-dao/ssm-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssmDemo/ssm-pojo/ssm-pojo.iml" filepath="$PROJECT_DIR$/ssmDemo/ssm-pojo/ssm-pojo.iml" />
