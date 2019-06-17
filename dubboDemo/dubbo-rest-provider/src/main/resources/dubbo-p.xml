@@ -1,20 +1,19 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
-       xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
        http://code.alibabatech.com/schema/dubbo
        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <!--发布dubbo协议-->
-    <dubbo:application name="service-provider"></dubbo:application>
+    <dubbo:application name="service-rest-provider"></dubbo:application>
 
-    <dubbo:registry address="zookeeper://192.168.31.150:2181" />
-    <dubbo:protocol name="dubbo" port="20882"/>
+    <dubbo:registry address="zookeeper://192.168.1.141:2181" />
+    <dubbo:protocol name="rest" port="8084" server="tomcat"/>
 
-    <dubbo:service interface="com.dap.dubbo.service.HelloService"
-                   class="com.dap.dubbo.service.impl.HelloServiceImpl"
-    filter="zk.flowControl.customer.filter,zk.hystrixFilter.customer.filter"></dubbo:service>
+    <dubbo:service interface="cn.caber.dubborestprovider.service.HelloService"
+                   class="cn.caber.dubborestprovider.service.impl.HelloServiceImpl">
+    </dubbo:service>
 
 
 

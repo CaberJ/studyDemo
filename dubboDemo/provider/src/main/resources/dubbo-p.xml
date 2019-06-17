@@ -6,14 +6,17 @@
        http://code.alibabatech.com/schema/dubbo
        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
+    <!--发布dubbo协议-->
     <dubbo:application name="service-provider"></dubbo:application>
 
-    <dubbo:registry address="zookeeper://192.168.31.150:2181" group="aa"/>
+    <dubbo:registry address="zookeeper://192.168.31.150:2181" />
     <dubbo:protocol name="dubbo" port="20882"/>
 
     <dubbo:service interface="com.dap.dubbo.service.HelloService"
-                   class="com.dap.dubbo.service.impl.HelloServiceImpl" group="hello"
+                   class="com.dap.dubbo.service.impl.HelloServiceImpl"
     filter="zk.flowControl.customer.filter,zk.hystrixFilter.customer.filter"></dubbo:service>
+
+
 
 
 

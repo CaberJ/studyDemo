@@ -5,6 +5,8 @@ import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.ReferenceConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 
+import java.io.IOException;
+
 /**
  * @Description:
  * @Author: zhaikaibo
@@ -36,6 +38,12 @@ public class Consumer {
 // 和本地bean一样使用xxxService
         HelloService helloService = reference.get();
         System.out.println("看看拿到了没："+helloService);
-        helloService.sayHello("大河向东流啊");
+        String s = helloService.sayHello("大河向东流啊");
+        System.out.println("返回："+s);
+      /*  try {
+            System.in.read();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }*/
     }
 }
